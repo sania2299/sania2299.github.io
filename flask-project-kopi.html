@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,16 +7,14 @@
   <link rel="stylesheet" href="style.css" />
   <style>
     .screenshot {
-  max-width: 600px;
-  width: 100%;
-  height: auto;
-  margin: 20px auto;
-  box-shadow: 0 0 20px rgba(138, 43, 226, 0.4);
-  border-radius: 10px;
-  border: 2px solid #4a00e0;
-  display: block;
-}
-
+      max-width: 600px;
+      width: 100%;
+      height: auto;
+      margin: 20px auto;
+      box-shadow: 0 0 20px rgba(138, 43, 226, 0.4);
+      border-radius: 10px;
+      border: 2px solid #4a00e0;
+      display: block;
     }
 
     .caption {
@@ -28,6 +25,34 @@
       margin-left: auto;
       margin-right: auto;
     }
+
+    body {
+      background-color: #0f1117;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #60a5fa;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      text-decoration: none;
+      color: #38bdf8;
+      border: 1px solid #38bdf8;
+      padding: 10px 18px;
+      border-radius: 6px;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #38bdf8;
+      color: #0f1117;
+    }
   </style>
 </head>
 <body>
@@ -37,15 +62,22 @@
 
   <div>
     <img src="flask-login-system-screenshot-1.png" alt="Login page screenshot" class="screenshot" />
-    <div class="caption">Login form where users enter their credentials. Input validation and error handling are implemented.</div>
+    <div class="caption">
+      Login form where users enter their credentials. Input validation and error handling are implemented.
+    </div>
   </div>
 
   <div>
     <img src="flask-login-system-screenshot-2.png" alt="Success message screenshot" class="screenshot" />
-    <div class="caption">Success page shown after correct login. This page is protected and only accessible to authenticated users.</div>
+    <div class="caption">
+      Success page shown after correct login. This page is protected and only accessible to authenticated users.
+    </div>
   </div>
 
   <a href="index.html" class="btn">← Back to Portfolio</a>
 
 </body>
 </html>
+
+
+  
