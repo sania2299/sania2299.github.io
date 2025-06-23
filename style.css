@@ -46,3 +46,14 @@ h1 {
 .btn.download:hover {
   background-color: #60a5fa;
 }
+
+.intro-detail {
+  margin-top: 1.5em;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  color: #cccccc;
+  font-size: 1.05rem;
+}
+
