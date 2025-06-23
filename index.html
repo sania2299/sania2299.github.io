@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sania Bokhari - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 1.5s ease forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    .avatar-glow {
+      border-radius: 50%;
+      box-shadow: 0 0 20px #8a2be2;
+      transition: 0.3s ease;
+      width: 120px;
+      height: 120px;
+      margin: 0 auto;
+    }
+
+    .avatar-glow:hover {
+      box-shadow: 0 0 40px #8a2be2;
+    }
+  </style>
+</head>
+<body>
+  <div class="container fade-in">
+    <div class="avatar-glow">
+      <!-- Avatar legges inn her -->
+    </div>
+    <h1>Hello, I'm <span class="highlight">Sania Bokhari</span></h1>
+    <p>Cybersecurity student passionate about secure web development and ethical hacking.</p>
+
+    <div class="links">
+      <a href="https://github.com/sania2299" class="btn">GitHub</a>
+      <a href="https://www.linkedin.com/in/sania-bokhari-828928262/" class="btn">LinkedIn</a>
+      <a href="flask-project.html" class="btn">My Flask Project</a>
+    </div>
+
+    <a href="resume.html" class="btn download">View Resume</a>
+  </div>
+</body>
+</html>
